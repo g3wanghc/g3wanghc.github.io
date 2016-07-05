@@ -1,12 +1,12 @@
 body {
-  padding:50px;
+  padding: 75px;
   font:14px "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:#808080;
 }
 
 h1 {
   margin:0 0 20px;
-  color:000000;
+  color: #000000;
   line-height:0;
 }
 
@@ -37,18 +37,18 @@ a:hover {
 }
 
 .intro {
-  width:900px;
+  width: 850px;
   margin:0 auto;
 }
 
 header {
   width:270px;
-  float:left;
   position:fixed;
 }
 
 section {
-  width: 550px;
-  float:right;
+  width: 490px;
+  margin: 0 auto;
   padding-bottom:50px;
+  float:right;
 }
