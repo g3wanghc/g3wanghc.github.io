@@ -1,0 +1,69 @@
+==================================================================
+https://keybase.io/g3wanghc
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://g3wanghc.github.io
+  * I am g3wanghc (https://keybase.io/g3wanghc) on keybase.
+  * I have a public key with fingerprint 8B4E 9618 201C 8CC1 73A2  9CE1 81FB 9260 9D03 9523
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "01010a3acd5a482d97e2a314c5154eb4adfbc9022a6019fd2957ca1467259d0c96340a",
+            "fingerprint": "8b4e9618201c8cc173a29ce181fb92609d039523",
+            "host": "keybase.io",
+            "key_id": "81fb92609d039523",
+            "kid": "01010a3acd5a482d97e2a314c5154eb4adfbc9022a6019fd2957ca1467259d0c96340a",
+            "uid": "bfd81662be35531ccde782b446439619",
+            "username": "g3wanghc"
+        },
+        "service": {
+            "hostname": "g3wanghc.github.io",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1468044122,
+    "expire_in": 157680000,
+    "prev": "20ff76e3339e15c0355c79fa88829313f07d1a524f6d698188c09fd9e8b4b038",
+    "seqno": 8,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.53
+Comment: https://keybase.io/crypto
+
+yMInAnicrVJbSBVBGD7HSulUcNLqIbouVIIn25nZy+yhK1S+9NLFDJUOuzOzx8Xc
+PZ3d4yVLgp6KbhSRZQVF2QUqCyOEBE0j6UJUFFhg2INlenoo0CzKZq1eosdmHob5
+5/u++b5/pnPKuEAoeN2LDS4Y7nkUfNh+OhUo2n20uFYwHFojRGuFcja2sG2UuV6s
+3KJCVBABnzrSCZV1CUOqqQzqCEhEBrLEDEmnpkE0EUJdEYFmUqjJKtGBpKhQ1qhI
+NAVJoi5EBNOy4yyZSFq2x2WxITFNARiKgGBCgIp0qBEGMDANDSoipyJNhogTyxzX
+Z3Bzhu6yfMvhNb6Jjdn7B/4/+06NyRkmxUBRoMGQLCNACGUqhoYkKRLiOTQf6LKk
+rVcwjo6jKt2OlxFhV0Tg1UqLML+xfpK/EPlxyytLGb9SJZKO5xBnGz8v87yEG/X5
+Xk3CJ1QxI/ZbKmZYNuXd5IxKlnQtxxaigCOJZ/naPAMWJQlAGBFYdcJKspjlI2SV
+1/nw72GVXBKKpqkqDCGkMSATkScjqmbqGGOoIYBMUaVAl6FkKlTRMMCYiLxTGuOP
+Z4gIC3647bYjRDG3qce5pGvFbd1LJZmw625b6fhAMBTInJDh/7JAaGL4z99beyjr
+Bw6/UJWeg+kjn898o+uaCy8PVVwrViqKFjfsyzuye3TLgqsdX7rWXOn32p70fT0w
+Hdedf9bwadLj+2SoKb3qzpt1TvfxjyMPVkfCIzbeHvr+vOrWmjeZ6XP7KiYWDM8b
+v7kxNn/9xveV+5+1dm64sbVn78Hanaj+fHnesez6xtmbbg6oF+aqvUv7u0/smWMO
+fugqvDQ6S0oXtcxcvX50eXhhaXWoZcWMppyrnbT/3bReOFziuiWtp/o2PJjadzuY
+s+ht7kBWd+5p2vZjpEA+uXTuieaWeMaruuDKa3DH66ejtHeo/tPF3MGz4N67kpzH
+B+JK+0sPZFevzFtWlz8wecm3jsPqTwOCSSs=
+=EW3c
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/g3wanghc
+
+==================================================================
+
