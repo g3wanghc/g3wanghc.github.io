@@ -42,6 +42,7 @@ a:hover {
 }
 
 header {
+  margin-top: 8px;
   width:270px;
   position:fixed;
 }
@@ -51,4 +52,8 @@ section {
   margin: 0 auto;
   padding-bottom:50px;
   float:right;
+}
+
+section > h3 > c {
+  color:#D0563C;
 }
