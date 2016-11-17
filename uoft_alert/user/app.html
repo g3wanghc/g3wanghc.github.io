@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html>
+	
+	<!-- info about webpage-->
+	<head>
+		<title>UofT Alerts</title>
+		<link rel="stylesheet" href="./app.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	</head>
+	
+	<body>
+		<div id='title'>UofT Alerts Viewer</div>
+		<div id='status_clear'>(Emergency Clear)</div>
+		<div id='status_progress'>(Emergency In Progress)</div>
+		
+		<div style="text-align: center">
+			<div id='alert_date_container' style="text-align: center">
+				<div id='alert_date_label' style="text-align: center">Alert Date</div>
+				<div id='alert_date_text' style="text-align: center">November 15th, 2016</div>
+			</div>
+			<div id='alert_time_container' style="text-align: center">
+				<div id='alert_time_label' style="text-align: center">Alert Time</div>
+				<div id='alert_time_text' style="text-align: center">11:30 AM</div>
+			</div>
+		</div>
+
+		<div id='situation_map'><img src="./map.png" alt="Mountain View" style="width:20px;height:20px;">Situation Map (Bahen Centre)</div>
+
+
+		<div id='map'>
+
+			<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2886.452987117383!2d-79.397832!3d43.659548!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b34c0acc7e80b%3A0xf855e8cd942bf650!2sBahen+Centre+for+Information+Technology%2C+St+George+St%2C+Toronto%2C+ON+M5S+2E4!5e0!3m2!1sen!2sca!4v1479268107197" frameborder="0" style="border:0" allowfullscreen></iframe>
+		</div>
+		
+		<div id= description_container>
+			<div id='description_label'><img src="./list.png" alt="Mountain View" style="width:25px;height:25px;">Description</div>
+			<div id='description_text'>There is a gunman between St. George, Huron, Russell and College Streets. Please evacuate this area by making your way to an area deemed safe, that is outside of the affected area, which is highlighted in red in the map.</div>
+		</div>
+	</body>
+</html>
+

@@ -1,0 +1,135 @@
+
+/*override all text font so it is arial*/ 
+html *{
+   font-family: arial !important;
+   font-weight: bold !important;
+}
+
+
+html {
+    	background-color: #c7c5c6; 
+	}
+
+
+#title, #status_clear, #status_progress{
+    margin-top: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20pt;
+
+    margin-bottom: 20px;
+}
+
+#map iframe{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+iframe{
+    width:95%;
+    height:300px;
+}
+
+#alert_date_container, #alert_time_container{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#alert_date_container{
+    margin-right: 5%;
+}
+
+#alert_time_container{
+    margin-left: 5%;
+}
+
+#alert_date_label, #alert_time_label{
+    margin-bottom: 5px;
+}
+
+#alert_date_text, #alert_time_text{
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+#situation_map{
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+
+#map{
+    margin-bottom: 20px;
+}
+
+#description_container{
+    margin-left: 10px;
+}
+
+#alert_date_label, #alert_time_label, #situation_map, #description_label{
+    font-style: italic;
+}
+#description_text{
+    margin-top: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+
+
+
+/*
+========== Extra formatting due to device type: Smart Phone ==========
+*/
+
+
+
+/* Smart Phone - Portrait */
+@media only screen and (min-device-width: 320px) and (max-device-width: 700px) and (orientation: portrait) {    
+	#title, #status_clear, #status_progress{
+        color: red;
+    }
+    
+    #status_clear{
+        display: none;
+    }
+
+    #status_progress{
+        margin-top: 0px;
+        font-size: 15pt;
+        font-style: italic;
+    }
+    #title{
+        margin-bottom: 0px;
+        color: black;
+    }
+
+	
+}
+
+/* Smart Phone - Landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 740px) and (orientation: landscape) {
+
+    #title, #status_clear, #status_progress{
+        color: green;
+    }
+
+    #status_progress{
+        display: none;
+    }
+
+    #status_clear{
+        margin-top: 0px;
+        font-size: 15pt;
+        font-style: italic;
+    }
+    #title{
+        margin-bottom: 0px;
+        color: black;
+    }
+	
+}
