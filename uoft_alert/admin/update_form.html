@@ -1,0 +1,106 @@
+<html>
+
+<head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<style>
+	body {margin: 5em;}
+	legend {margin-left: 5em;}
+	button {width: 20em;}
+</style>
+
+<script>
+	$(document).ready(function () {
+     $("body").find("legend").find("t").text(Date())
+  });
+</script>
+
+</head>
+<body>
+	<form class="form-horizontal">
+	<fieldset>
+
+	<legend> <b style="color:navy;"> UofTAlerts </b> - Update - Weather Warning - <t id="datetime" style="color:grey; font-size:85%"> abc </t> </legend>
+
+	<div class="form-group">
+  	<label class="col-md-4 control-label">Message Title</label>  
+	  <div class="col-md-4">
+	  	<input type="text" value="Weather Warning - Snow Storm" class="form-control input-md">
+	  </div>
+	</div>
+
+<div class="form-group">
+  <label class="col-md-4 control-label" for="message">Message Body</label>
+  <div class="col-md-4">                     
+    <textarea class="form-control">The Medical Officer of Health will issue Extreme Cold Weather Alerts when Environment Canada forecasts a temperature of -15 °C or colder or a wind chill of -20 or colder in the City of Toronto. ... During Extreme Cold Weather Conditions.</textarea>
+  </div>
+</div>
+
+	<div class="form-group">
+	  <label class="col-md-4 control-label" for="type">Alert Type</label>
+	  <div class="col-md-4">
+	    <select class="form-control">
+	      <option>Natural Disaster</option>
+	      <option>Armed Suspect</option>
+	      <option>Fire Incident</option>
+	      <option>Gas Leak</option>
+	      <option>Medical Distress</option>
+	      <option>Other</option>
+	    </select>
+	  </div>
+	</div>
+
+	<div class="form-group">
+	  <label class="col-md-4 control-label">Severity</label>
+	  <div class="col-md-4">
+	    <select class="form-control">
+	      <option>Critical</option>
+	      <option>High</option>
+	      <option>Medium</option>
+	      <option>Low</option>
+	    </select>
+	  </div>
+	</div>
+
+	<div class="form-group">
+	  <label class="col-md-4 control-label"> Location </label>
+		<map class="col-md-4">
+		  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2886.292050390414!2d-79.39785044862926!3d43.66289555971868!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sca!4v1479150931868" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+		</map>
+	</div>
+
+	<div class="form-group">
+	  <label class="col-md-4 control-label">Address</label>  
+	  <div class="col-md-4">
+	  <input type="text" value="St George St Toronto, ON M5S 2E4" class="form-control input-md">
+	  <span class="help-block">street adress</span>  
+	  </div>
+	</div>
+
+	<div class="form-group">
+	  <label class="col-md-4 control-label" for="building">Affected Building(s)</label>
+	  <div class="col-md-4">
+	    <select class="form-control" multiple="multiple">
+	      <option>Bahen Centre for Information</option>
+	      <option>Sandford Fleming Building</option>
+	      <option>Gerstein Science Information Centre</option>
+	    </select>
+	    <span class="help-block">select all</span> 
+	  </div>
+	</div>
+	</fieldset>
+	</form>
+
+	<div style="align="center"">
+	  <label class="col-md-4 control-label" for="buttons"></label>
+	  <div>
+	    <a href="./confirmation_screen.html">
+	    	<button class="btn btn-success">Update Alert</button>
+	    </a>
+	    <a href="./dashboard.html">
+	    	<button class="btn btn-danger">Cancel</button>
+	    <a>
+	  </div>
+	</div>
+</body>
+<html>

@@ -1,0 +1,60 @@
+<html>
+
+<head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+<style>
+    body {
+        margin: 5em;
+    }
+    button {
+        width: 15em;
+    }
+</style>
+
+<body>
+<div align="right">
+    <a href="./login.html">
+        <button class="btn btn-danger" style="width: 10em; margin-bottom: -1.5em;"> Logout </button> 
+    </a>
+</div>
+<legend> <b style="color:navy;"> UofTAlerts </b> - Ongoing - Alert Notifications </legend>
+
+<table class="table table-inbox table-hover">
+  <tbody>
+    <tr>
+        <td>
+            <input type="checkbox">
+        </td>
+        <td>Bahen - Fire Alert</td>
+        <td>Students at Bahen Center are advised to evacate ... </td>
+        <td class="text-right">Mon Nov 14 2016 15:23:00 GMT-0500 (EST)</td>
+    </tr>
+    <tr>
+        <td>
+            <input type="checkbox">
+        </td>
+        <td>UofT - Weather Warning</td>
+        <td>St. George campus is closed today due to Severe ...</td>
+        <td class="text-right">Fri Nov 11 2016 08:30:00 GMT-0500 (EST)</td>
+    </tr>
+  </tbody>
+<table>  
+
+<div style="align=center; margin-top:10em;">
+  <label class="col-md-2 control-label" for="buttons"></label>
+  <div>
+    <a href="./main_form.html">
+        <button class="btn btn-success">New Alert</button>
+    </a>
+    <a href="./update_form.html">
+        <button class="btn btn-warning">Update Alert</button>
+    <a>
+    <a href="./dashboard.html">
+        <button class="btn btn-danger">Delete Alert</button>
+    <a>
+  </div>
+</div>
+</body>
+</html>
