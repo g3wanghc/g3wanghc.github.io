@@ -4,31 +4,16 @@ html *{
    font-family: arial !important;
 }
 
-
 html {
     	background: url("./iphone_lock_screen.png") no-repeat center fixed; 
     	background-size: cover;
 	}
-
-
-
-
-
-
-
-
-
 /*
 ========== Extra formatting due to device type: Smart Phone ==========
 */
 
-
-
 /* Smart Phone - Portrait */
 @media only screen and (min-device-width: 320px) and (max-device-width: 700px) and (orientation: portrait) {
-
-
-
 	#rcorners{
     	border-radius: 25px;
     	background: #d3d3d3;
@@ -41,8 +26,6 @@ html {
     	margin-left: auto;
     	margin-top: 55%;
 	}
-
-    
 	button {
     	background-color: white; 
     	border: none;
@@ -50,23 +33,12 @@ html {
     	padding: 15px 15px;
     	text-align: center;
     	text-decoration: none;
-     
     	font-size: 16px;
-
     	cursor: pointer;
-
     	border-radius: 8px;
-
-        
     }
-    
-	
-	
-	
 }
 
 /* Smart Phone - Landscape */
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: landscape) {
-
-	
 }
