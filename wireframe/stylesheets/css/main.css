@@ -126,8 +126,8 @@ li a:hover{
 #directions:hover{
   background: repeating-linear-gradient(
 	  45deg,
-	  #8BCED0,
-	  #8BCED0 10px,
+	  #9ADADA,
+	  #9ADADA 10px,
 	  white 10px,
 	  white 20px);
   font-style: normal;
