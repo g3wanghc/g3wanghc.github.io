@@ -1,0 +1,163 @@
+body{
+  padding: 50 50px;
+  background-color: #9ADADA;
+  font: "Times New Roman", Times, serif;
+}
+
+h1{
+  display: table-cell; 
+  vertical-align:middle;
+	padding-top: 5px;
+	font-family: 'Cabin', sans-serif;
+	letter-spacing: 4px;
+	font-size: 46px;
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: white;
+}
+
+li{
+  float: left;
+  display: table;
+  height: 100%;
+  width: 16.5%;
+}
+
+li:last-of-type {
+	float: right;
+  width: 17.5%;
+}
+
+li a{
+  display: table-cell; 
+  vertical-align: middle;
+  height: 100%;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  background-color: white;
+}
+
+li a:hover{
+	color: white;
+  background: black;
+}
+
+#logo{
+	height: 10%;
+	width: 100%;
+	text-align:center; 
+  display:table;
+  color: white;
+  background: black;
+}
+
+#navbar{
+	height: 10%;
+}
+
+#sidebar{
+	display: inline-block;
+	width: 34%;
+	height: 100%;
+}
+
+#hours{
+	display: table;
+	height: 25%;
+	width: 100%;
+	color: white;
+	background-color: black;
+}
+
+#hours div{
+	display: table-cell; 
+  vertical-align: middle;
+  text-align: center;
+  font-style: italic;
+}
+
+#address{
+	display: table;
+	height: 25%;
+	width: 100%;
+	background-color: white;
+}
+
+#address div{
+	display: table-cell; 
+  vertical-align: middle;
+  text-align: center;
+  font-style: italic;
+}
+
+#map{
+	height: 50%;
+	background-color: black;
+	overflow: hidden;
+	background-image: url("../../assets/img/map.png");
+	background-repeat: no-repeat;
+	background-position: center; 
+}
+
+#directions{
+	position: relative;
+	left: 25%;
+	bottom: -75%;
+	display: table;
+	width: 50%;
+	height: 20%;
+	background-color: white;
+}
+
+
+#directions div{
+	display: table-cell; 
+  vertical-align: middle;
+  text-align: center;
+  font-style: italic;
+}
+
+#directions:hover{
+  background: repeating-linear-gradient(
+	  45deg,
+	  #8BCED0,
+	  #8BCED0 10px,
+	  white 10px,
+	  white 20px);
+  font-style: normal;
+}
+
+#descriptions{
+	position: relative;
+	left: 25%;
+	width: 50%;
+	height: 25%;
+	display:table;
+	background-color: white;
+	background: linear-gradient(-90deg, #2F4F4F, black, black, black, #2F4F4F);
+	opacity: 0.65;
+}
+
+#descriptions div{
+	display: table-cell;
+	vertical-align: middle;
+  text-align: center;
+  color: white;
+  font-style: italic;
+}
+
+#image{
+	float: right;
+	display: inline-block;
+	width: 66%;
+	height: 100%;
+  background-image: url("../../assets/img/board_games.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
